@@ -1,3 +1,4 @@
+/*Copy this for all pages style.css */
 /* BODY */
 body {
     background-image: url('img/background.png')
@@ -26,6 +27,7 @@ li a{
 header {
     margin: 0;
 }
+/* until here */
 
 /* bLOG HEADER */
 img {
@@ -56,18 +58,21 @@ h2 {
 
 .first-word {
     font-weight: 900;
+    font-size: 25px;
 }
 
 p {
+    padding: 30px;;
     overflow-x: hidden;
     overflow-y: sroll;
     height: 200px;
     border: 2px solid blue;
     background-color: white;
     opacity: 0.65;
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 100px;
     margin-right: 100px;
+
 
 }
 

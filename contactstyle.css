@@ -1,0 +1,55 @@
+/* Important for all style.css file */
+body {
+    background-image: url('img/background.png')
+}
+ul {
+    list-style: none;
+    background-color: black;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    text-align: center;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+header {
+    margin: 0;
+}
+/* end of important */
+
+.contact-me {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+form {
+    font-size: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+    margin-top: 0;
+}
+
+input[type=textarea] {
+    padding-bottom: 300px;
+}
+
+input[type=submit] {
+    background-color: blue;
+}
