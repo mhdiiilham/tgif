@@ -36,7 +36,13 @@ img {
 }
 
 /* Blog Content */
+.blog-content {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+
 h1 {
+    border-radius: 30px;
     margin-top: 0;
     text-align: center;
     border: 5px double red;
@@ -47,13 +53,18 @@ h1 {
 }
 
 h2 {
+    border-radius: 30px;
     text-align: center;
-    border: 3px dashed black;
+    border: 3px solid black;
     font-size: 50px;
     margin-left: 500px;
     margin-right: 500px;
-    margin-top: 0; 
+    margin-top: 5px; 
     
+}
+
+span {
+    text-decoration: underline;
 }
 
 .first-word {
