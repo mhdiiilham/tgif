@@ -31,8 +31,10 @@ header {
 /* end of important */
 
 .contact-me {
-    margin-left: 200px;
-    margin-right: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
 }
 
 form {
