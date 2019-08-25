@@ -17,7 +17,7 @@
             <H1>Contact Me</H1>
             <form action="mailto:slimyhebat@gmail.com" method="POST">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" pattern="[a-zA-Z]" placeholder="Your Name" required><br>
+                <input type="text" id="name" name="name" pattern="[a-zA-Z]+[a-zA-Z ]+" placeholder="Your Name" required><br>
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" placeholder="Your email" required><br>
                 <label for="country">Nationality:</label>
@@ -266,6 +266,7 @@
             </section>
             <label for="kritik-saran">Your Message:</label>
             <input type="textarea" id="kritik-saran" name="kritik-saran" placeholder="Your Message" rows="3" cols="40">
+            <input type="submit" value="submit">
         </form>
         </div>
 </html>
