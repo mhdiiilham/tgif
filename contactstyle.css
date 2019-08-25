@@ -1,6 +1,10 @@
 /* Important for all style.css file */
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
-    background-image: url('img/background.png')
+    background-image: url('img/bg.jpg')
 }
 ul {
     list-style: none;
