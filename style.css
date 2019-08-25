@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url('img/bg.jpg')
+    background-image: url('img/newbg.png')
 }
 
 .parents {
@@ -12,7 +12,7 @@ body {
     width: 1000px;
     float: left;
     border: 5px solid black;
-    background-color: white;    
+    background-image: url('img/personal-info.png') 
 }
 
 img {
